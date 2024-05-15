@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #fafafb;
+    --purple:#2E4053;
+    --blue-light:#04d4c3;
+    --blue-dark:#424949;
+    --green: #424949;
+    
+ 
+ }
+
+body {
+    width: 96%;
+    background: linear-gradient(to bottom,var(--purple),var(--blue-light));
+    height: 100vh; ;
+    font-family: 'Prompt', sans-serif;
+    background-position: center;
+    background-size: cover;
+--white: #fafafb;
+   --purple:#2E4053;
+   --blue-light:#04d4c3;
+   --blue-dark:#424949;
+   --green: #424949;
+}
+
+h2 {
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0) ;
+}
+
+#container {
+    margin: 0;
+    padding: 1%;
+    justify-content: center;
+}
+
+.input {
+    width: 75%;
+    height: 4rem;
+    border-radius: 1rem;
+    border: solid 1px;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    font-size: 22px;
+}
+
+#paises {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 0.5rem 1rem;
+    flex-wrap: wrap;
+}
+
+#informacion-Paises{
+
+    border-radius: 1rem;
+}
+
+.banderas {
+    width: 14.4rem;
+    object-fit: cover;
+    height: 190px;
+    border: solid;
+}
+
+.formu {
+    display: flex;
+    justify-content: center;
+}
+
+.conta-car {
+    background-color:rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.descripcion-Pais {
+    height: 29rem;
+    font-size: 25px;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    border-radius: 1rem;
+    border: solid 1px;
+}
+.descripcion-Clima{
+    height: 29rem;
+    font-size: 25px;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    border-radius: 1rem;
+    border: solid 1px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.5rem 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.clain-icon{
+    height: 19%;
+    width: 23%;
+}
+#climas {
+    font-size: 22px;
+}
+
+.info-paises {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+}
+
+#seccion-pais{
+    width: 80%;
+    height: 27rem;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+#Seccion-Clima{
+    width: 80%;
+    height: 26rem;
+    background: linear-gradient(rgb(107, 224, 199), rgb(65, 138, 78));
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.img-clima{
+    width: 14.4rem;
+    object-fit: cover;
+    height: 190px;
+    border: solid;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 748px){
+    
+    body{
+        width: 82%;
+        flex-direction: column;
+    }
+    .input {
+        width: 75%;
+    }
+    #seccion-pais{
+        width: 80%;
+        height: 13rem;
+        display: flex;
+        flex-direction: row;
+    }
+    #Seccion-Clima{
+        width: 80%;
+        flex-direction: row;
+        height: 15rem;
+    }
+    .descripcion-Clima{
+        height: 15rem;
+        font-size: 23px;
+        font-weight: 700;
+}
+.descripcion-Pais{
+    height: 13rem;
+    font-weight: 700;
+}
+.img-clima{
+    width: 15.4rem;
+}
+.banderas{
+    height: 153px;
+}
+.clain-icon{
+    width: 27%;
+}
+}
+
+@media(min-width: 1024px) {
+
+    .descripcion-Clima{
+    width: 58%;
+    }
+    .descripcion-Pais{
+    width: 58%;
+    }
+    #seccion-pais{
+        width: 77%;
+    }
+
+}
